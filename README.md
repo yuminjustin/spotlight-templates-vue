@@ -1,2 +1,4 @@
 # spotlight-templates-vue
-spotlight templates 常规vue环境
+spotlight scaffold template for vue
+<br><br>
+It‘s comming
