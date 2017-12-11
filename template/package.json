@@ -41,6 +41,7 @@
     "webpack-merge": "^4.1.0"
   },
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
     "vue": "^2.5.8"
   }
 }
