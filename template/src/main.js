@@ -1,11 +1,11 @@
 /* polyfill IE */
-import 'babel-polyfill'
+import '@babel/polyfill'
 /* vonder*/
 import Vue from 'vue'
 import Hello from 'C/hello'
 /* styles*/
-import "@/assets/css/reset.css"
-import "@/assets/css/page.css"
+import "B/assets/css/reset.css"
+import "B/assets/css/page.css"
 
 Vue.config.productionTip = false
 
