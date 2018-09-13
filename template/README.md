@@ -3,7 +3,7 @@ spotlight scaffold template for vue<br>
 
 ## Use：
 
-     spotlight init vue my-project
+     spotlight vue my-project
 
      cd my-project
 
