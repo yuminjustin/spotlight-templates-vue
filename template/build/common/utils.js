@@ -64,7 +64,10 @@ exports.styleLoaders = (isdev) => {
         return {
             test: /\.css$/,
             include: [_d],
-            loader: isdev ? 'style-loader' : MiniCssExtractPlugin.loader
+            loader: isdev ? 'style-loader' : MiniCssExtractPlugin.loader,
+            options: isdev ? {} : {
+                publicPath: "../../"
+            }
         }
     },
         _s = (_d, options) => {
